@@ -3,20 +3,20 @@
     background-color: var(--mainBlue);
 }
 
-.big-nav .global-container {
+.big-nav .container {
     display: flex;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
 }
 
-.big-nav .global-container ul {
+.big-nav .container ul {
     display: flex;
     list-style-type: none;
     gap: 25px;
 }
 
-.big-nav .global-container ul li a {
+.big-nav .container ul li a {
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
@@ -31,17 +31,17 @@
     transition: 0.15s linear;
 }
 
-.big-nav .global-container ul li a:hover {
+.big-nav .container ul li a:hover {
     border-bottom: 2px solid #fff;
 }
 
-.big-nav .global-container .button {
+.big-nav .container .button {
     max-width: 270px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.big-nav .global-container .button {
+.big-nav .container .button {
     padding: 10px 25px;
     text-decoration: none;
     color: #000;
@@ -57,8 +57,51 @@
 }
 
 
-.big-nav .global-container .button:hover {
+.big-nav .container .button:hover {
     border: 2px solid #fff;
     background-color: var(--mainBlue);
     color: #fff;
-} 
+}
+
+.little-nav {
+    display: none;
+}
+
+
+/* -------------------Media Queries-------------------- */
+@media screen and (max-width: 767px) {
+    .big-nav {
+        display: none;
+    }
+
+    .little-nav  {
+        display: block;
+        padding: 16px 0;
+        background-color: red;
+    }
+
+    .little-nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .little-nav .container .for-logo {
+        width: 86px;
+        display: flex;
+        align-items: center;
+    }
+
+    .little-nav .container .for-logo img {
+        width: 100%;
+    }
+
+    .little-nav .container .icons {
+        display: flex;
+        gap: 15px;
+    }
+
+    .little-nav .container .icons .icon {
+        cursor: pointer;
+    }
+}

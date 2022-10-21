@@ -151,3 +151,50 @@
     background-color: var(--mainBlue);
     color: #fff;
 }
+
+
+/* ------------------Media Queries-------------------- */
+@media screen and (max-width: 767px) {
+    .contact-part {
+        padding: 40px 0;
+    }
+    
+    .contact-part .container .titles {
+        height: 30px;
+        margin-bottom: 35px;
+    }
+    
+    .contact-part .container .titles .title {
+        font-size: 26px;
+        padding: 0;
+    }
+    
+    .contact-part .container .titles .title-2 {
+        font-size: 56px;
+        padding: 0;
+        top: -20px;
+    }
+    
+    .contact-part .container .wrapper {
+        gap: 0;
+        padding: 28px;
+        text-align: center;
+    }
+    
+    .contact-part .container .wrapper .title {
+        margin-bottom: 20px;
+    }
+    
+    .contact-part .container .wrapper .left-side {
+        display: none;
+    }
+    
+    .contact-part .container .wrapper .right-side {
+        width: 100%;
+    }
+    
+    .contact-part .container .wrapper .right-side form {
+        align-items: center;
+        gap: 18px;
+    }
+}

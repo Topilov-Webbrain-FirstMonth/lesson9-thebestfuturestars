@@ -49,3 +49,37 @@ footer .container .beWithUs .icons {
     display: flex;
     gap: 20px;
 }
+
+
+/* -------------------Media Queries---------------------- */
+@media screen and (max-width: 767px) {
+    footer {
+        padding: 10px 0;
+    }
+    footer .container .logo {
+        width: 67px;
+    }
+    footer .container .logo img {
+        width: 100%;
+    }
+    footer .container .contacts {
+        flex-direction: column;
+        gap: 7px;
+    }
+    footer .container .contacts .title {
+        font-size: 14px;
+    }
+    footer .container .contacts .number {
+        font-size: 13px;
+        margin: 3px 0;
+    }
+    footer .container .beWithUs {
+        gap: 10px;
+    }
+    footer .container .beWithUs .text {
+        font-size: 13px;
+    }
+    footer .container .beWithUs .icons a img {
+        width: 18px;
+    }
+}

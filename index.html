@@ -13,7 +13,7 @@
 
     <nav>
         <div class="big-nav">
-            <div class="global-container">
+            <div class="global-container container">
                 <a href="#">
                     <img src="./media/images/nav/logo.svg" alt="Logo">
                 </a>
@@ -26,7 +26,17 @@
                 <a class="button" href="#contacts">Связаться с нами</a>
             </div>
         </div>
-        <div class="little-nav"></div>
+        <div class="little-nav">
+            <div class="global-container container">
+                <a href="#" class="for-logo">
+                    <img src="./media/images/nav/logo.svg" alt="logo">
+                </a>
+                <div class="icons">
+                    <div class="icon"><img src="./media/icons/nav/Call.svg" alt="call"></div>
+                    <div class="icon"><img src="./media/icons/nav/Burger Menu.svg" alt="open menu"></div>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <header>
@@ -45,6 +55,7 @@
                     <img src="./media/images/header/proud-little-boy-with-glasses-graduation-cap-removebg-preview 1.svg"
                         alt="Proud little boy">
                 </div>
+                <img class="absolute-image" src="./media/images/header/Ellipse 1.svg" alt="bg-image">
             </div>
             <div class="bg-image">
                 <img src="./media/images/header/Ellipse 1.svg" alt="bg-image">
@@ -54,6 +65,7 @@
 
     <div class="about-us" id="about-us">
         <div class="global-container container">
+            <div class="title-mobile">О нас</div>
             <div class="left-side">
                 <img src="./media/images/aboutUs/photo_2021-08-25_14-04-43 1.svg" alt="about us image">
             </div>
@@ -201,9 +213,9 @@
                     <div class="title">Оставьте заявку</div>
                     <form>
                         <p>В честь открытия нашей школы дарим скидку -20%</p>
-                        <input type="text" placeholder="Имя">
-                        <input type="text" placeholder="Фамилия">
-                        <textarea rows="10" placeholder="Сообщение"></textarea>
+                        <input type="text" placeholder="Имя" required>
+                        <input type="text" placeholder="Фамилия" required>
+                        <textarea rows="10" placeholder="Сообщение" required></textarea>
                         <button>Отправить</button>
                     </form>
                 </div>
@@ -213,7 +225,7 @@
 
     <footer>
         <div class="global-container container">
-            <a href="#"><img src="./media/images/nav/logo.svg" alt="logo"></a>
+            <a class="logo" href="#"><img src="./media/images/nav/logo.svg" alt="logo"></a>
             <div class="contacts">
                 <div class="title">Контакты:</div>
                 <div>

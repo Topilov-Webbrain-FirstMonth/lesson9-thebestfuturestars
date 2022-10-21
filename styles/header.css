@@ -85,6 +85,7 @@ header .container .left-side .buttons button:last-of-type:hover {
     background-color: var(--extraBlue);
     color: #fff;
 }
+
 /* ------------------------ Header Left Side End */
 
 
@@ -93,6 +94,11 @@ header .container .left-side .buttons button:last-of-type:hover {
 header .container .right-side {
     width: 50%;
 }
+
+header .container .right-side .absolute-image {
+    display: none;
+}
+
 header .container .right-side .proud-boy img {
     width: 150%;
     margin-left: -32%;
@@ -100,3 +106,92 @@ header .container .right-side .proud-boy img {
 }
 
 /* ------------------------ Header Right Side End */
+
+
+
+
+
+
+
+/* ----------------------Media Queries------------------------ */
+@media screen and (max-width: 767px) {
+    header {
+        padding-top: 10px;
+        background-color: #fff;
+        overflow: visible;
+    }
+
+    header .container {
+        flex-direction: column-reverse;
+        position: inherit;
+    }
+
+    header .container .bg-image {
+        display: none;
+    }
+
+    header .container .bg-image img {
+        width: 100%;
+    }
+
+
+    /* ------------------------ Header Left Side Start */
+    header .container .left-side {
+        padding-top: 40px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .container .left-side .title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    header .container .left-side p {
+        margin: 20px 0 30px 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    header .container .left-side .buttons {
+        gap: 20px;
+    }
+
+    header .container .left-side .buttons button {
+        padding: 5px 15px;
+        max-width: 140px;
+        font-size: 14px;
+        line-height: 20px;
+        border-radius: 5px;
+    }
+
+    /* ------------------------ Header Left Side End */
+
+
+    /* ------------------------ Header Right Side Start */
+    header .container .right-side {
+        width: 100%;
+        padding: 40px 0 0;
+        position: relative;
+        overflow-y: hidden;
+        z-index: 0;
+    }
+
+    header .container .right-side .absolute-image {
+        display: block;
+        width: 100%;
+        position: absolute;
+        bottom: -50%;
+        z-index: -1;
+    }
+
+    header .container .right-side .proud-boy img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: -3px;
+    }
+    /* ------------------------ Header Right Side End */
+}

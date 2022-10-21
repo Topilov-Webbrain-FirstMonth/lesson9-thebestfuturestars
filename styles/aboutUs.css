@@ -8,6 +8,10 @@
     gap: 50px;
 }
 
+.about-us .container .title-mobile {
+    display: none;
+}
+
 .about-us .container .left-side {
     width: 50%;
 }
@@ -43,6 +47,47 @@
 /* ---------------------Media Queries-------------------- */
 @media screen and (max-width: 767px) {
     .about-us {
-        padding: 40px 0;
+        padding: 50px 0;
+    }
+
+    .about-us .container {
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+
+    .about-us .container .title-mobile {
+        display: block;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #000;
+    }
+
+    .about-us .container .left-side {
+        width: 100%;
+    }
+
+    .about-us .container .left-side img {
+        width: 100%;
+    }
+
+    .about-us .container .right-side {
+        width: 100%;
+    }
+
+    .about-us .container .right-side .title {
+        display: none;
+    }
+
+    .about-us .container .right-side p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .about-us .container .right-side p span {
+        display: block;
+        margin-top: 15px;
     }
 }
