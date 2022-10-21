@@ -26,6 +26,7 @@
                 <a class="button" href="#contacts">Связаться с нами</a>
             </div>
         </div>
+
         <div class="little-nav">
             <div class="global-container container">
                 <a href="#" class="for-logo">
@@ -33,8 +34,23 @@
                 </a>
                 <div class="icons">
                     <div class="icon"><img src="./media/icons/nav/Call.svg" alt="call"></div>
-                    <div class="icon"><img src="./media/icons/nav/Burger Menu.svg" alt="open menu"></div>
+                    <div class="icon" id="openMenu"><img src="./media/icons/nav/Burger Menu.svg" alt="open menu"></div>
                 </div>
+            </div>
+        </div>
+
+        <div class="little-menu close" id="littleMenu">
+            <div class="global-container container">
+                <a href="#" class="for-logo">
+                    <img src="./media/images/nav/logo.svg" alt="logo">
+                </a>
+                <div class="icon" id="closeMenu"><img src="./media/icons/nav/Exit.svg" alt="close menu"></div>
+            </div>
+            <div class="global-container links">
+                <a class="closeMenu" href="#about-us">О нашей школе</a>
+                <a class="closeMenu" href="#advantages">Преимущества</a>
+                <a class="closeMenu" href="#classes">Классы</a>
+                <a class="closeMenu" href="#contacts">Контакты</a>
             </div>
         </div>
     </nav>
@@ -84,7 +100,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="advantages" id="advantages">
         <div class="global-container container">
             <div class="title">Наши преимущества</div>
@@ -100,7 +116,7 @@
                     <div class="little-title">IT технологии</div>
                     <p>21 век- это век информационных технологий. Ваш ребенок сможет научиться азам програмированния,
                         тенденциям в мире гаджетов и профессиям будущего</p>
-                </div>
+                    </div>
                 <div class="item">
                     <div class="for-img"><img src="./media/images/advantages/3.svg" alt="3-х разовое питание"></div>
                     <div class="little-title">Ментальная арифметика</div>
@@ -181,7 +197,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="contact-part" id="contacts">
         <div class="global-container container">
             <div class="titles">
@@ -242,11 +258,12 @@
                             alt="instagram icon"></a>
                     <a href="https://facebook.com" target="_blank"><img src="./media/icons/footer/facebook (4) 1.svg"
                             alt="facebook icon"></a>
-                </div>
+                        </div>
             </div>
         </div>
     </footer>
 
+    <script src="./index.js"></script>
 </body>
 
 </html>

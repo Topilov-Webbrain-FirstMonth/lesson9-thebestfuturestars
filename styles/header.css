@@ -111,13 +111,11 @@ header .container .right-side .proud-boy img {
 
 
 
-
-
 /* ----------------------Media Queries------------------------ */
 @media screen and (max-width: 767px) {
     header {
         padding-top: 10px;
-        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0);
         overflow: visible;
     }
 
