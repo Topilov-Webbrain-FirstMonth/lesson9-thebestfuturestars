@@ -1,0 +1,57 @@
+.advantages {
+    padding: 75px 0;
+    background-color: var(--mainBlue);
+}
+
+.advantages .container .title {
+    margin-bottom: 20px;
+    padding: 0 100px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.advantages .container .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.advantages .container .flex-container .item {
+    width: 32%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advantages .container .flex-container .item .for-img {
+    width: 209px;
+    height: 209px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+
+.advantages .container .flex-container .item .for-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.advantages .container .flex-container .item .little-title {
+    margin: 25px 0 10px 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.advantages .container .flex-container .item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}

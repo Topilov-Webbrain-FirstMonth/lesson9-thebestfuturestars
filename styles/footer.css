@@ -1,0 +1,51 @@
+footer {
+    padding: 27px 0;
+    background-color: var(--mainBlue);
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .contacts {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+
+footer .container .contacts .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+footer .container .contacts .number {
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    margin: 9px 0;
+}
+
+footer .container .beWithUs {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .container .beWithUs .text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+
+footer .container .beWithUs .icons {
+    display: flex;
+    gap: 20px;
+}

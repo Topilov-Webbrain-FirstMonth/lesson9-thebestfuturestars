@@ -1,9 +1,18 @@
+/* ---------------------Variables Declaring Start----------------------- */
+:root {
+    --mainBlue: #5855e7;
+    --extraBlue: #6347eb;
+}
+/* ---------------------Variables Declaring End----------------------- */
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ---------------------Fonts Import Start----------------------- */
 @font-face {
     font-family: "Gilroy";
     src: url(./FontGilroy/Gilroy-Bold.ttf);
@@ -27,8 +36,52 @@
     src: url(./FontGilroy/Gilroy-Regular.ttf);
     font-weight: 400;
 }
+/* ---------------------Fonts Import End----------------------- */
 
 
 body {
     font-family: "Gilroy", sans-serif;
 }
+
+
+/* ---------------------Global Container Start----------------------- */
+.global-container {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media screen and (min-width: 1024px) {
+    .global-container {
+        width: 1010px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .global-container {
+        width: 95%;
+    }
+}
+/* ---------------------Global Container End----------------------- */
+
+
+/* ---------------------One-side Global Container Start----------------------- */
+.one-side-global-container {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+
+@media screen and (min-width: 1024px) {
+    .one-side-global-container {
+        width: calc( 1010px + ( ( 100vw - 1010px ) / 2));
+        margin: 0 0 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .one-side-global-container {
+        width: 97.5%;
+    }
+}
+/* ---------------------One-side Global Container End----------------------- */

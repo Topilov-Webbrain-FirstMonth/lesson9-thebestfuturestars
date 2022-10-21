@@ -1,0 +1,102 @@
+header {
+    padding-top: 10px;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+header .container .bg-image {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+    bottom: -250px;
+    right: -160px;
+}
+
+header .container .bg-image img {
+    width: 100%;
+}
+
+
+/* ------------------------ Header Left Side Start */
+header .container .left-side {
+    width: 50%;
+}
+
+header .container .left-side .title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+}
+
+header .container .left-side .title span {
+    color: var(--mainBlue);
+}
+
+header .container .left-side p {
+    margin: 40px 0 50px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+}
+
+header .container .left-side .buttons {
+    display: flex;
+    gap: 40px;
+}
+
+header .container .left-side .buttons button {
+    border-radius: 10px;
+    border: 2px solid var(--extraBlue);
+    padding: 5px 30px;
+    max-width: 200px;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.15s linear;
+}
+
+header .container .left-side .buttons button:first-of-type {
+    background-color: var(--extraBlue);
+    color: #fff;
+}
+
+header .container .left-side .buttons button:first-of-type:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+header .container .left-side .buttons button:last-of-type {
+    background-color: #fff;
+    color: #000;
+}
+
+header .container .left-side .buttons button:last-of-type:hover {
+    background-color: var(--extraBlue);
+    color: #fff;
+}
+/* ------------------------ Header Left Side End */
+
+
+
+/* ------------------------ Header Right Side Start */
+header .container .right-side {
+    width: 50%;
+}
+header .container .right-side .proud-boy img {
+    width: 150%;
+    margin-left: -32%;
+    margin-bottom: -5px;
+}
+
+/* ------------------------ Header Right Side End */

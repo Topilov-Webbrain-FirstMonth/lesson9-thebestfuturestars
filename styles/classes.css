@@ -1,0 +1,113 @@
+.classes {
+    padding: 100px 0;
+}
+
+.classes .container .titles {
+    margin-bottom: 56px;
+    position: relative;
+    height: 40px;
+}
+
+.classes .container .titles .title {
+    padding: 0 100px;
+    position: absolute;
+    width: 100%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+    text-align: center;
+    z-index: 2;
+}
+
+.classes .container .titles .title-2 {
+    padding: 0 100px;
+    position: absolute;
+    top: -35px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 50px;
+    color: #eee;
+    text-align: center;
+    z-index: 1;
+    user-select: none;
+}
+
+.classes .container .flex-container {
+    display: flex;
+    gap: calc(10% / 3);
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.classes .container .flex-container .flex-item {
+    margin-top: 50px;
+    width: 30%;
+    padding: 19px 17px 33px;
+    background-color: var(--mainBlue);
+    box-shadow: 0px 0px 35px rgba(17, 17, 17, 0.25);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.classes .container .flex-container .flex-item .for-img img {
+    width: 100%;
+}
+
+.classes .container .flex-container .flex-item .big-title {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FAFBFD;
+}
+
+.classes .container .flex-container .flex-item .little-title {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.classes .container .flex-container .flex-item p {
+    height: 75px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.classes .container .flex-container .flex-item button {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 25px;
+    max-width: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--extraBlue);
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid var(--extraBlue);
+    transition: 0.15s linear;
+}
+
+.classes .container .flex-container .flex-item button:hover {
+    border: 2px solid #fff;
+    background-color: var(--extraBlue);
+    color: #fff;
+}
+
+/* ------------------Media Queries------------------ */
+@media screen and (max-width:767px) {
+    .classes {
+        padding: 60px 0;
+    }
+}
