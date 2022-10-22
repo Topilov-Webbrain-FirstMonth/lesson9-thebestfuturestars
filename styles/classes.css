@@ -138,6 +138,9 @@
     .classes .container .flex-container {
         flex-direction: column;
         flex-wrap: nowrap;
+        min-width: 300px;
+        max-width: 400px;
+        margin: 0 auto;
     }
 
     .classes .container .flex-container .flex-item {

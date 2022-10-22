@@ -25,6 +25,8 @@ footer .container .contacts .title {
 }
 
 footer .container .contacts .number {
+    display: block;
+    text-decoration: none;
     font-size: 20px;
     line-height: 23px;
     color: #fff;
