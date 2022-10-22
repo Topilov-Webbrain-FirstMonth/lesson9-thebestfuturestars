@@ -3,6 +3,7 @@
     --mainBlue: #5855e7;
     --extraBlue: #6347eb;
 }
+
 /* ---------------------Variables Declaring End----------------------- */
 
 
@@ -36,12 +37,18 @@
     src: url(./FontGilroy/Gilroy-Regular.ttf);
     font-weight: 400;
 }
+
 /* ---------------------Fonts Import End----------------------- */
 
 
 body {
     font-family: "Gilroy", sans-serif;
-    background-image: url(../media/images/body.svg);
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-image: url(../media/images/body.svg);
+    }
 }
 
 
@@ -63,6 +70,7 @@ body {
         width: 95%;
     }
 }
+
 /* ---------------------Global Container End----------------------- */
 
 
